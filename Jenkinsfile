@@ -7,7 +7,7 @@ pipeline{
   stages{
   stage('checkout'){
   steps{
-   git branch:'master ,url:''
+   git branch:'master ,url:'https://github.com/Disha-L12/rkd2.git'
    }
    }
   stage('build'){
